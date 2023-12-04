@@ -12,6 +12,6 @@ with open(file_name) as f:
         winning, drawn = {int(x) for x in winning}, {int(x) for x in drawn}
         matches = winning.intersection(drawn)
         if len(matches) > 0:
-            total += 2**(len(matches)-1)
+            total += 2 ** (len(matches) - 1)
 
 print(total)
