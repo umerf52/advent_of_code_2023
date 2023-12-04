@@ -1,8 +1,6 @@
 from collections import defaultdict
 import sys
 
-total = 0
-
 file_name = sys.argv[1]
 
 with open(file_name) as f:
